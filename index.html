@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Scorpion Backup: a personal backup utility for a Flashforge AD5X printer using rclone and Google Drive.">
+  <title>Scorpion Backup</title>
+  <style>
+    body {font: 16px/1.6 system-ui, -apple-system, sans-serif; max-width: 740px; margin: 10vh auto; padding: 0 24px; color: #182334; background: #f9fafb;}
+    h1 {font-size: 2.1rem; line-height: 1.2;}
+    a {color: #1157a6;}
+    .note {border-left: 4px solid #697b90; padding-left: 14px; margin-top: 24px;}
+    footer {margin-top: 40px; font-size: .93rem; color: #4e5f74;}
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Scorpion Backup</h1>
+    <p>Scorpion Backup is a personal, non-commercial backup setup for one owner's Flashforge AD5X 3D printer. It uses <a href="https://rclone.org/">rclone</a> on the owner's computer to store printer configuration backups and recovery files in the owner's Google Drive account.</p>
+    <p>The intended setup encrypts backup contents and filenames locally with rclone crypt before uploading them. The Google Drive connection requests the <code>drive.file</code> permission, which is limited to files the application creates or is explicitly allowed to access.</p>
+    <p class="note">This is a personal tool, not a public backup service. This website does not collect files, sign-in information, or printer data. Backups are not hosted on this website.</p>
+    <p>Read the <a href="privacy.html">Privacy Policy</a> for details about how Google Drive data is handled.</p>
+  </main>
+  <footer>Scorpion Backup — personal-use information page.</footer>
+</body>
+</html>
